@@ -35,7 +35,7 @@ global.sudo = process.env.SUDO || "923192173398";
 global.owner = process.env.OWNER_NUMBER || "923192173398";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -62,12 +62,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
+  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-Daham-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
-  ownername: process.env.OWNER_NAME || "WASI",
-  errorChat: process.env.ERROR_CHAT || "923192173398",
+  botname: process.env.BOT_NAME || "DM whatsapp Bot-𝐌𝐃-𝐕2",
+  ownername: process.env.OWNER_NAME || "DM whatsapp Bot",
+  errorChat: process.env.ERROR_CHAT || "94767084970",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
